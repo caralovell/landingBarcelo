@@ -34,7 +34,7 @@ nav img { height: 45px; }
 .hero {
     height: 300px;
     border-radius: 1rem; /* igual que los botones */
-    overflow: hidden;     /* para que las imágenes respeten el borde */
+    overflow: hidden;     /* para que las imÃ¡genes respeten el borde */
     max-width: 100%;      /* puedes ajustar a 100% o un ancho fijo si quieres */
     margin: 0 auto;       /* centrado si se usa ancho menor al contenedor */
     position: relative;
@@ -57,7 +57,7 @@ nav img { height: 45px; }
 /* --- FOOTER --- */
 footer { text-align: center; font-size: 0.8rem; color: #666; padding: 1rem 0 1.5rem; }
 
-/* --- PÁGINAS INTERNAS --- */
+/* --- PÃGINAS INTERNAS --- */
 .page { display: none; padding: 1rem; height: auto; min-height: 0; }
 .page.active { display: block; }
 
@@ -85,7 +85,7 @@ label { display: block; margin-top: 1rem; }
 .modal-close { top: 15px; left: 15px; }
 .confirm-close { top: 10px; left: 10px; }
 
-/* --- MODALES RESPONSIVE PARA MÓVIL --- */
+/* --- MODALES RESPONSIVE PARA MÃ“VIL --- */
 @media (max-width: 600px) { 
     .modal, .confirm-modal { align-items: flex-start; padding-top: 2rem; min-height: 100vh; }
     .modal-content, .confirm-modal-content { width: 95%; border-radius: 0.8rem; max-height: 85vh; }
@@ -124,7 +124,7 @@ button:disabled {
     opacity: 0.6;
 }
 
-/* Mensaje de validación */
+/* Mensaje de validaciÃ³n */
 .validation-message {
     color: #d62828;
     font-weight: bold;
@@ -235,39 +235,39 @@ button:disabled {
 </head> 
 <body> 
 <nav id="navbar"> 
-<img src="./hotel/logo.png" alt="Barceló Logo" id="barceloLogo"> 
-<img src="./hotel/logovlc.jpg" alt="Barceló vlc Logo" id="vlcLogo"> 
+<img src="./hotel/logo.png" alt="IHG Logo" id="ihgLogo"> 
+<img src="./hotel/logovlc.jpg" alt="Crowne Plaza Logo" id="crowneLogo"> 
 </nav> 
 
 <!-- HOME PAGE --> 
 <div id="homePage" class="page active"> 
 <div class="hero" id="hero"> 
 <div class="slider-track" id="sliderTrack"> 
-<img src="./hotel/ouside.jpg" alt="Hotel 1"> 
-<img src="./hotel/drink.jpg" alt="Hotel 2"> 
-<img src="./hotel/entrance.jpg" alt="Hotel 3"> 
-<img src="./hotel/night.jpg" alt="Hotel 4"> 
-<img src="./hotel/terrace.jpg" alt="Hotel 5"> 
-<img src="./hotel/drink.jpg" alt="Hotel 6"> 
+<img src="./hotel/hotel1.jpg" alt="Hotel 1"> 
+<img src="./hotel/hotel2.jpg" alt="Hotel 2"> 
+<img src="./hotel/hotel3.jpg" alt="Hotel 3"> 
+<img src="./hotel/hotel4.jpg" alt="Hotel 4"> 
+<img src="./hotel/hotel5.jpg" alt="Hotel 5"> 
+<img src="./hotel/hotel6.jpg" alt="Hotel 6"> 
 </div> 
     
 <div class="slider-dots" id="sliderDots"></div>
     
-<div class="hero-arrow left" id="prevSlide">‹</div> 
-<div class="hero-arrow right" id="nextSlide">›</div> 
+<div class="hero-arrow left" id="prevSlide">â€¹</div> 
+<div class="hero-arrow right" id="nextSlide">â€º</div> 
 <p class="intro-text">Welcome to Valencia</p> 
 </div> 
 
 <div class="sections"> 
-<a class="section-button" href="https://www.ihg.com/crowneplaza/hotels/gb/en/riyadh/ruhit/hoteldetail/rooms" data-external> 
+<a class="section-button" href="https://www.ihg.com/crowneplaza/hotels/gb/en/riyadh/ruhit/hoteldetail/rooms" data-external>  
 <img src="./hotel/room.jpg" alt="Book a room"> 
 <span>Book a room</span> 
 </a> 
 <div class="section-button" onclick="navigateTo('checkinPage')"> 
-<img src="./hotel/room.jpg" alt="Check-in"> 
+<img src="./hotel/reception.jpg" alt="Check-in"> 
 <span>Check-in</span> 
 </div> 
-<a class="section-button" href="https://maps.situm.com/Cara-hotel?lng=es&buildingid=19027&floorid=64456" data-external> 
+<a class="section-button" href="./situm.html"> 
 <img src="./hotel/situm.jpg" alt="Map view"> 
 <span>Map view</span> 
 </a> 
@@ -293,7 +293,7 @@ button:disabled {
 </div>
 
 <div class="section-button" id="surveyButton" onclick="navigateTo('surveyPage')"> 
-<img src="./hotel/entrance.jpg" alt="Satisfaction survey"> 
+<img src="./hotel/satis.jpg" alt="Satisfaction survey"> 
 <span>Satisfaction survey</span> 
 </div> 
 </div> 
@@ -339,14 +339,14 @@ button:disabled {
   <h2>Our Services</h2>
   <div class="sections">
     <a class="section-button" href="https://www.ihg.com/crowneplaza/hotels/us/en/riyadh/ruhit/hoteldetail/dining" data-external>
-      <img src="./hotel/terrace.jpg" alt="Dining"><span>Dining</span>
+      <img src="./hotel/food.jpg" alt="Dining"><span>Dining</span>
     </a>
 
     <!-- Flipcard: Pool -->
     <div class="flipcard">
       <div class="flipcard-inner">
         <div class="flipcard-front">
-          <img src="./hotel/terrace.jpg" alt="Pool">
+          <img src="./hotel/pool2.jpg" alt="Pool">
           <span>Pool</span>
         </div>
         <div class="flipcard-back">
@@ -362,7 +362,7 @@ button:disabled {
     <div class="flipcard">
       <div class="flipcard-inner">
         <div class="flipcard-front">
-          <img src="./hotel/terrace.jpg" alt="Fitness Center">
+          <img src="./hotel/fitness.jpg" alt="Fitness Center">
           <span>Fitness Center</span>
         </div>
         <div class="flipcard-back">
@@ -377,7 +377,7 @@ button:disabled {
     <div class="flipcard">
       <div class="flipcard-inner">
         <div class="flipcard-front">
-          <img src="./hotel/terrace.jpg" alt="Spa">
+          <img src="./hotel/spa.jpg" alt="Spa">
           <span>Spa</span>
         </div>
         <div class="flipcard-back">
@@ -448,19 +448,19 @@ button:disabled {
 <form id="surveyForm"> 
 <label><strong>Overall Experience *</strong></label> 
 <div class="rating"> 
-<span>😡</span><span>😟</span><span>😐</span><span>🙂</span><span>😃</span> 
+<span>ðŸ˜¡</span><span>ðŸ˜Ÿ</span><span>ðŸ˜</span><span>ðŸ™‚</span><span>ðŸ˜ƒ</span> 
 </div> 
 <label><strong>Reservation Process *</strong></label> 
 <div class="rating"> 
-<span>😡</span><span>😟</span><span>😐</span><span>🙂</span><span>😃</span> 
+<span>ðŸ˜¡</span><span>ðŸ˜Ÿ</span><span>ðŸ˜</span><span>ðŸ™‚</span><span>ðŸ˜ƒ</span> 
 </div> 
 <label><strong>Staff *</strong></label> 
 <div class="rating"> 
-<span>😡</span><span>😟</span><span>😐</span><span>🙂</span><span>😃</span> 
+<span>ðŸ˜¡</span><span>ðŸ˜Ÿ</span><span>ðŸ˜</span><span>ðŸ™‚</span><span>ðŸ˜ƒ</span> 
 </div> 
 <label><strong>Room *</strong></label> 
 <div class="rating"> 
-<span>😡</span><span>😟</span><span>😐</span><span>🙂</span><span>😃</span> 
+<span>ðŸ˜¡</span><span>ðŸ˜Ÿ</span><span>ðŸ˜</span><span>ðŸ™‚</span><span>ðŸ˜ƒ</span> 
 </div> 
 <label><strong>Rate us *</strong></label> 
 <div class="number-rating"> 
@@ -483,7 +483,7 @@ button:disabled {
 </div> 
 </div> 
 
-<footer>© 2025 Barceló Valencia – Part of Barceló Hotels & Resorts</footer> 
+<footer>Â© 2025 Crowne Plaza Riyadh â€“ Part of IHG Hotels & Resorts</footer> 
 
 <script>
 // --- PAGES NAVIGATION ---
@@ -516,7 +516,7 @@ function openModal(id) {
 function closeModal(id) {
     document.getElementById(id).style.display = 'none';
     document.body.style.overflow = '';
-    navigateTo('homePage'); // <--- añadir esta línea
+    navigateTo('homePage'); // <--- aÃ±adir esta lÃ­nea
 }
 
 document.querySelectorAll('.modal').forEach(modal => {
@@ -532,7 +532,7 @@ function showConfirm(msg){
 
 function closeConfirm(){
     document.getElementById('confirmModal').style.display = 'none';
-    navigateTo('homePage'); // <--- añadir esta línea
+    navigateTo('homePage'); // <--- aÃ±adir esta lÃ­nea
 }
 
 // --- HERO SLIDER ---
@@ -541,7 +541,7 @@ const slides = sliderTrack.children;
 const totalSlides = slides.length;
 let currentSlide = 0;
 
-// Crear los dots dinámicamente
+// Crear los dots dinÃ¡micamente
 const sliderDots = document.getElementById("sliderDots");
 
 for (let i = 0; i < totalSlides; i++) {
@@ -569,7 +569,7 @@ function updateSlider() {
   updateDots();
 }
 
-// Lógica existente de flechas
+// LÃ³gica existente de flechas
 document.getElementById("nextSlide").onclick = () => {
   currentSlide = (currentSlide + 1) % totalSlides;
   updateSlider();
@@ -690,7 +690,7 @@ document.querySelectorAll('.section-button').forEach(btn => {
 });
 
 
-// --- LOGOS: IR A PÁGINA PRINCIPAL ---
+// --- LOGOS: IR A PÃGINA PRINCIPAL ---
 const ihgLogo = document.getElementById('ihgLogo');
 const crowneLogo = document.getElementById('crowneLogo');
 [ihgLogo, crowneLogo].forEach(logo => {
